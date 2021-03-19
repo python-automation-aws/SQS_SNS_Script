@@ -24,3 +24,4 @@ def sns_publish():
             Message_count +=1
     print("Total number of messages published through SNS is",Message_count)
 sns_publish()
+                           }}
