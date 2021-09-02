@@ -1,6 +1,7 @@
 def sns_publish():
     import boto3
     import os,datetime
+    import sys
     # Once you execute this script it will ask your username which you update in your credential file. 
     aws_mg_con=boto3.session.Session(profile_name=input("Please enter your AWS Prod environment Username"))
     # service name is 'sns' and region is 'us-west-2'
