@@ -1,1 +1,1 @@
-# SQS_SNS_Script_
+# SQS_SNS_Script
