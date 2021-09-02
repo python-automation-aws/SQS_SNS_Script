@@ -11,8 +11,6 @@ def sns_publish():
     # joining path with current date  and time folder
     path_join=os.path.join(r'C:\download\python\script',f"{datetime.datetime.now().strftime('%Y-%m-%d')}")
 
-    
-    
     directory_path=os.listdir(path_join)
     Message_count=0
     for files in directory_path:
