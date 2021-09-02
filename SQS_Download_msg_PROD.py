@@ -41,6 +41,9 @@ def get_messages_from_queue(queue_url):
         sqs_ms = sqs_client.delete_message_batch(
             QueueUrl=queue_url, Entries=entries
         )
+        
+        
+        
 sqs_msg_output=get_messages_from_queue('https://sqs.us-west-2.amazonaws.com/123456789012/orders-status')
 for msg_output in sqs_msg_output:
     print(msg_output)
